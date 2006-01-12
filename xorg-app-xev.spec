@@ -1,12 +1,12 @@
 Summary:	xev application
 Summary(pl):	Aplikacja xev
 Name:		xorg-app-xev
-Version:	0.99.2
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/xev-%{version}.tar.bz2
-# Source0-md5:	a264918cd4f90db7c87afe68f98d3582
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xev-%{version}.tar.bz2
+# Source0-md5:	533a399580d6797faf1a7416fc2c653f
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -44,6 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
