@@ -1,5 +1,5 @@
 Summary:	xev application
-Summary(pl):	Aplikacja xev
+Summary(pl.UTF-8):   Aplikacja xev
 Name:		xorg-app-xev
 Version:	1.0.2
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xev application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xev.
 
 %prep
