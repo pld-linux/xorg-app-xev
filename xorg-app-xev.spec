@@ -1,5 +1,5 @@
 Summary:	xev application
-Summary(pl.UTF-8):   Aplikacja xev
+Summary(pl.UTF-8):	Aplikacja xev
 Name:		xorg-app-xev
 Version:	1.0.2
 Release:	1
