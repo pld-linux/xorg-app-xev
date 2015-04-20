@@ -1,12 +1,12 @@
 Summary:	xev application - printing contents of X events
 Summary(pl.UTF-8):	Aplikacja xev wypisujaca zawartość zdarzeń X
 Name:		xorg-app-xev
-Version:	1.2.1
+Version:	1.2.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xev-%{version}.tar.bz2
-# Source0-md5:	5b0a0b6f589441d546da21739fa75634
+# Source0-md5:	249bdde90f01c0d861af52dc8fec379e
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
@@ -62,4 +62,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/xev
-%{_mandir}/man1/xev.1x*
+%{_mandir}/man1/xev.1*
